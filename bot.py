@@ -45,7 +45,7 @@ from pyrogram.errors import (
 
 BOT_TOKEN = os.getenv('BOT_TOKEN', '8516749118:AAEyrHAKI-HZk-Qt3BYzhSlKpnteuS_Hzu8')
 ADMIN_ID = int(os.getenv('ADMIN_ID', '8386507312'))
-MONGO_URL = os.getenv('MONGO_URL', 'mongodb+srv://userbot:userbot@cluster0.iweqz.mongodb.net/test?retryWrites=true&w=majority')
+MONGO_URL = os.getenv('MONGO_URL', 'mongodb+srv://ishantyadav708_db_user:JSOfdqSPeFp8uMOH@cluster0.1fnj10l.mongodb.net/?appName=Cluster0')
 API_ID = int(os.getenv('API_ID', '30038466'))
 API_HASH = os.getenv('API_HASH', '5a492a0dfb22b1a0b7caacbf90cbf96e')
 
@@ -1042,7 +1042,7 @@ Click the buttons below to join both channels, then press VERIFY ✅"""
                 start(call.message)
                 return
             
-            msg_text = "🛠️ Support: @ROCKY_P4PA"
+            msg_text = "🛠️ Support: @JATINYADV001"
             markup = InlineKeyboardMarkup()
             markup.add(InlineKeyboardButton("⬅️ Back", callback_data="back_to_menu"))
             
@@ -2615,7 +2615,7 @@ def process_recharge_amount(msg):
         caption = f"""<blockquote>💳 <b>UPI Payment Details</b> 
 
 💰 Amount: {format_currency(amount)}
-📱 UPI ID: Chandaliya@fam
+📱 UPI ID: jatinyadv001@ptyes
 
 📋 Instructions:
 1. Scan QR code OR send {format_currency(amount)} to above UPI
@@ -2634,7 +2634,7 @@ def process_recharge_amount(msg):
         
         bot.send_photo(
             msg.chat.id,
-            "https://files.catbox.moe/q8l080.jpg",
+            "https://ibb.co/5h87whxj",
             caption=caption,
             parse_mode="HTML",
             reply_markup=markup
