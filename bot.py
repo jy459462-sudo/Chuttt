@@ -940,8 +940,8 @@ Click the buttons below to join both channels, then press VERIFY ✅"""
                     bot.send_message(
                         receiver_id,
                         receiver_message,
-                        parse_mode="@Devbanna7"
-                        reply_markup=receiver_markup
+                        parse_mode="@Devbanna7",
+                        reply_markup=receiver_markup,
                     )
                 except Exception as e:
                     logger.warning(f"Could not notify receiver {receiver_id}: {e}")
