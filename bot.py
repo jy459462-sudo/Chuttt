@@ -43,17 +43,17 @@ from pyrogram.errors import (
 # CONFIG
 # ---------------------------------------------------------------------
 
-BOT_TOKEN = os.getenv('BOT_TOKEN', '8516749118:AAEyrHAKI-HZk-Qt3BYzhSlKpnteuS_Hzu8')
-ADMIN_ID = int(os.getenv('ADMIN_ID', '8386507312'))
-MONGO_URL = os.getenv('MONGO_URL', 'mongodb+srv://ishantyadav708_db_user:JSOfdqSPeFp8uMOH@cluster0.1fnj10l.mongodb.net/?appName=Cluster0')
+BOT_TOKEN = os.getenv('BOT_TOKEN', '8011002656:AAHtfdpFwUM7b3dvSk1sszQgjeC7araGIEc')
+ADMIN_ID = int(os.getenv('ADMIN_ID', '8439226124'))
+MONGO_URL = os.getenv('MONGO_URL', 'mongodb+srv://vowetik399_db_user:AP9OwDOxxMWeUdRH@cluster0.qos76ie.mongodb.net/?appName=Cluster0')
 API_ID = int(os.getenv('API_ID', '30038466'))
 API_HASH = os.getenv('API_HASH', '5a492a0dfb22b1a0b7caacbf90cbf96e')
 
 # MUST JOIN CHANNELS - TWO CHANNELS
-MUST_JOIN_CHANNEL_1 = "@USA_SUPPORT_CH"
-MUST_JOIN_CHANNEL_2 = "@USATGLOGS"
+MUST_JOIN_CHANNEL_1 = "@Spyprimeotp"
+MUST_JOIN_CHANNEL_2 = "@spyprimeotp1"
 # LOG CHANNEL
-LOG_CHANNEL_ID = "-1003887741767"
+LOG_CHANNEL_ID = "-1003706086434"
 
 # Referral commission percentage
 REFERRAL_COMMISSION = 1.5
@@ -518,7 +518,7 @@ def clean_ui_and_send_menu(chat_id, user_id, text=None, markup=None):
         
         # Main menu caption with expandable blockquotes
         caption = (
-            "🥂 <b>Welcome To Otp Bot By ROCKY_P4PA</b> 🥂\n"
+            "🥂 <b>Welcome To Otp Bot By JATINYADV001</b> 🥂\n"
             "<blockquote expandable>\n"
             "- Automatic OTPs 📍\n"
             "- Easy to Use 🥂🥂\n"
@@ -940,7 +940,7 @@ Click the buttons below to join both channels, then press VERIFY ✅"""
                     bot.send_message(
                         receiver_id,
                         receiver_message,
-                        parse_mode="Markdown",
+                        parse_mode="@Devbanna7
                         reply_markup=receiver_markup
                     )
                 except Exception as e:
@@ -1042,7 +1042,7 @@ Click the buttons below to join both channels, then press VERIFY ✅"""
                 start(call.message)
                 return
             
-            msg_text = "🛠️ Support: @JATINYADV001"
+            msg_text = "🛠️ Support: @Devbanna7"
             markup = InlineKeyboardMarkup()
             markup.add(InlineKeyboardButton("⬅️ Back", callback_data="back_to_menu"))
             
@@ -2615,7 +2615,7 @@ def process_recharge_amount(msg):
         caption = f"""<blockquote>💳 <b>UPI Payment Details</b> 
 
 💰 Amount: {format_currency(amount)}
-📱 UPI ID: jatinyadv001@ptyes
+📱 UPI ID: yashpal07@fam
 
 📋 Instructions:
 1. Scan QR code OR send {format_currency(amount)} to above UPI
@@ -2634,7 +2634,7 @@ def process_recharge_amount(msg):
         
         bot.send_photo(
             msg.chat.id,
-            "https://ibb.co/5h87whxj",
+            "https://ibb.co/VY7yV9s3",
             caption=caption,
             parse_mode="HTML",
             reply_markup=markup
